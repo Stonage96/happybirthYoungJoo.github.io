@@ -1,0 +1,31 @@
+<HTML><HEAD><TITLE>(제목 없음)</TITLE>
+
+<script language="javascript">
+<!--
+function login_page(form) {
+//원하는 패스워드를 설정
+if (form.pass.value=="101") {
+//패스워드가 일치하면 이동할 문서의 경로
+location="맞음.html"
+} else {
+location="틀림.html"
+}
+}
+//-->
+
+// 비밀번호는 1234, 사이트는 http://com.ne.kr/photo/site.htm로 설정되어 있습니다.
+</script>
+
+</HEAD>
+
+<body>
+
+<p align="left">
+오징어 게임 속 캐릭터 유형에서 석기의 결과로 나온 '장덕수'캐릭터의 등번호를 입력하세요 .</p>
+<form name="loginForm">
+<p style="margin-bottom:20;"> 장덕수 번호 
+<input name="pass" type="password" size="12">
+<input type="button" value="확 인" onClick="login_page(this.form)" style="font-weight:bolder; font-size:4mm;"><BR>
+</form>
+<p align="left"></p>
+</BODY></HTML>
